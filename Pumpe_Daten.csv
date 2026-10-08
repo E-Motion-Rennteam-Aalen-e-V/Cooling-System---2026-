@@ -1,0 +1,28 @@
+Parameter,Wert,Einheit,Beschreibung,Quelle
+Typ,Kreiselpumpe,-,Pumpentyp,Annahme
+Werkstoff,1.4404 (AISI 316L),-,korrosionsbestaendig,Skizze
+Medium,Wasser,-,Foerdermedium,Skizze
+rho,998,kg/m3,Dichte Wasser bei 20 C,Physik
+g,9.81,m/s2,Erdbeschleunigung,Physik
+c_w,4186,J/(kg K),Spez. Waermekapazitaet Wasser,Physik
+T_soll,20,C,Solltemperatur Becken,Skizze (konst. Temperatur)
+T_start,18,C,Starttemperatur Becken,Annahme
+T_umg,18,C,Umgebungstemperatur,Annahme
+H0,12,m,Foerderhoehe bei Q=0,Annahme
+Q0,0.001,m3/s,Foerderstrom bei H=0 (60 L/min),Annahme
+eta_max,0.45,-,Maximaler Wirkungsgrad,Annahme
+Q_bep,0.0005,m3/s,Foerderstrom im Bestpunkt (30 L/min),Annahme
+P_nenn,250,W,Motornennleistung,Annahme
+n_nenn,2850,1/min,Nenndrehzahl,Annahme
+U_nenn,230,V,Nennspannung,Annahme
+I_nenn,1.2,A,Nennstrom,Annahme
+D_innen,0.025,m,Rohr-Innendurchmesser DN25,Annahme
+L_rohr,5,m,Rohrlaenge (Traegheit der Wassersaeule),Annahme
+H_geo,1.5,m,Geodaetische Hoehe Becken-Pumpe,Skizze/Annahme
+k_rohr,3.0e7,s2/m5,Rohrverlustbeiwert,Annahme
+k_ventil0,4.0e6,s2/m5,Drosselventil: k_V = k0*(1/theta^2-1),Annahme
+P_heiz,1000,W,Heizelement Leistung,Skizze
+P_kuehl,100,W,Kuehlung (nicht in Skizze - Empfehlung),Annahme
+V_tank,0.05,m3,Beckenvolumen (50 L),Annahme
+UA,5,W/K,Waermeverlust Becken an Umgebung,Annahme
+Hysterese,0.5,K,Schaltschwelle Heizen/Kuehlen,Annahme

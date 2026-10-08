@@ -1,0 +1,12 @@
+Groesse,Wert,Einheit
+Foerderstrom_Q_op,30.0000,L/min
+Foerderhoehe_H_op,9.0000,m
+Hydraulische_Leistung,44.0567,W
+Wirkungsgrad_op,0.4500,-
+Elektrische_Leistung_op,97.9038,W
+Verlustleistung_Pumpe_ins_Wasser,53.8471,W
+Anlaufzeit_t95,0.0905,s
+Heizelement_Anteil,11.0803,%
+Kuehlung_Anteil,21.2719,%
+Temperatur_Ende,20.2872,C
+Temperatur_Max,20.5000,C
